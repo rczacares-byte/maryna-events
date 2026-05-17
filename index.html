@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryna Events - Experiencia de Bienvenida</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="MEFAVICON.png">
+    <link rel="apple-touch-icon" href="MEFAVICON.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- --- Menú de Navegación Principal --- -->
+    <nav class="main-nav">
+        <div class="nav-brand">
+            <img src="LOGOMARYNAEVENTS1.svg" alt="Maryna Events Logo" class="nav-logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto-final">Contacto</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- ====== HERO: PREMIUM DYNAMIC AURA ====== -->
+    <section class="hero-premium" id="hero">
+        <!-- Animated Background Auras -->
+        <div class="aura-container">
+            <div class="aura aura-1"></div>
+            <div class="aura aura-2"></div>
+            <div class="aura aura-3"></div>
+        </div>
+
+        <!-- Glass Overlay to soften Auras -->
+        <div class="aura-glass"></div>
+
+        <div class="hero-premium-inner">
+            <div class="hero-logo-3d-wrapper" id="logo-3d-wrapper">
+                <svg class="hero-logo-svg" viewBox="0 0 702.307 214.477" preserveAspectRatio="xMidYMid meet" id="hero-logo-svg">
+                    <path class="hero-path" pathLength="100" d="M562.457,50.292c1.064-2.913.276-7.867-2.041-9.299-3.681-2.275-8.519-.37-11.766,2.026-10.729,7.916-17.472,24.948-21.804,38.253l-12.669,38.913-18.14,2.818,8.932-28.422c-11.406,11.562-22.317,21.677-35.402,30.523l-9.595,27.172c-3.042,8.616-7.459,16.466-13.051,23.598-7.386,9.42-18.035,15.593-29.83,15.371-7.905-.149-14.565-4.76-15.984-12.485-1.224-6.664,1.25-13.147,5.828-18.174,5.145-5.65,11.098-10.401,17.714-14.437l25.263-15.409,6.231-19.563c-8.452,10.268-16.309,22.882-29.439,25.682-6.616,1.411-13.025-2.236-14.368-9.197-.745-3.861-.121-8.126.163-12.718-9.338,14.239-21.479,32.209-39.424,29.284-13.463-2.195-13.644-23.088-7.965-36.797,5.454-14.587,13.918-26.883,24.018-39.722-8.355,3.275-15.387,6.366-23.91,6.785-4.194,12.597-8.595,22.507-11.789,29.143-16.004,33.246-30.236,43.528-36.311,47.341-11.454,7.189-16.348,5.224-18.29,4.672-5.492-1.562-6.972-7.042-7.786-13.276-8.211,10.165-13.907,18.08-27.447,20.348-7.83,1.311-14.905-2.384-18.285-9.792-2.079-4.557-2.581-9.802-2.998-15.304-9.28,13.261-20.48,31.434-36.596,34.375-8.791,1.604-16.411-2.691-19.128-11.295-5.562-17.619,1.496-43.598,8.237-61.734,8.178-22.005,19.708-41.566,32.213-61.864-42.386,38.29-65.977,85.812-77.836,140.854-.741.693-5.312,4.829-11.936,4.214-4.463-.414-7.455-2.762-8.55-3.717.914-5.513,1.863-11.068,2.849-16.665,1.173-6.654,2.374-13.235,3.602-19.743l8.604-48.277c3.891-16.666,9.773-31.544,17.949-46.868-6.155,6.517-10.538,13.706-15.046,21.3-8.888,14.971-16.491,30.001-23.824,45.855-7.192,15.551-14.456,30.316-23.224,44.985-16.189,27.084-41.674,59.942-75.682,54.924-10.801-1.594-19.302-8.862-22.46-19.333-4.385-14.538,1.25-29.631,13.041-38.982,5.873-4.658,12.112-8.549,20.005-9.685-5.894,4.99-10.051,10.568-10.423,18.063-.524,10.558,7.794,18.49,18.468,17.463,10.269-.988,19.492-5.768,27.202-12.531l11.555-11.73c7.782-9.589,14.637-19.369,20.863-30.09l19.827-34.144c8.396-14.458,17.209-27.666,27.286-41.733-5.423,6.17-27.188,29.502-58.842,29.419-7.163-.019-13.582-1.233-19.073-2.901-7.427-2.117-11.448-10.057-9.072-16.856,2.194-6.278,9.293-10.015,16.128-8.064,9.005,2.216,31.317,6.4,56.864-2.821,18.404-6.643,30.53-17.371,36.829-23.859l16.879-14.797,4.126,5.278c-30.258,26.51-40.888,67.089-36.916,107.657,6.433-15.939,13.692-29.917,23.2-43.749,21.662-31.514,48.878-58.614,80.096-80.57l4.388,5.302-13.526,13.784c-16.786,20.218-29.919,43.047-38.274,68.05-5.777,17.288-11.523,43.378-5.283,59.275,1.484,3.78,5.098,6.642,9.093,5.377,4.953-1.569,8.916-4.843,12.714-8.361,6.342-6.756,11.607-13.965,16.269-22.037,5.805-20.949,21.413-46.076,42.549-51.671,8.033-2.126,15.454,1.192,18.83,8.803l2.585,5.826,6.916-16.383,15.788-2.202-21.168,65.069c-.433,2.735-.614,6.326,1.249,7.574,3.329,2.232,11.195-4.35,13.667-6.419,6.16-5.155,14.887-14.471,27.26-43.997,2.585-6.169,4.525-11.302,5.762-14.679-12.031-5.635-13.288-22.937-5.324-31.125,2.236-2.299,5.444-3.535,8.677-2.937,8.32,1.54,9.16,14.721,6.575,25.509,11.417-.853,21.508-6.722,30.168-13.988l7.431,8.921c-10.117,11.618-18.978,24.546-23.61,39.503-2.707,8.742-4.702,21.544,1.222,25.664,5.297,3.683,13.874-1.492,18.456-7.544,7.117-9.4,14.7-18.875,19.343-29.83l12.889-38.235,17.971-2.64-20.085,62.058c-.954,2.947-1.228,7.041.064,9.455,3.462,6.473,13.651-2.556,19.271-10.525,8.401-11.912,14.5-24.852,18.97-38.767l8.57-26.681,17.111-2.823.81,1.439-23.833,74.102c15.988-11.124,28.775-24.483,38.706-40.617l12.928-39.55,15.624-1.943-3.276,11.776c-.135.487-.016,2.111.224,1.929l1.18-.893c7.54-10.807,19.012-20.824,32.304-20.247,5.671.246,10.226,4.248,10.881,10.012.597,5.251-.405,10.825-2.233,15.956l-13.623,38.229c-.784,2.201-1.702,7.326.533,8.366,4.75,2.21,8.588-2.316,11.9-5.123,7.012-8.421,12.797-17.188,18.212-26.741,5.559-20.695,21.122-45.909,41.809-51.782,4.136-1.174,8.869-1.247,12.513.726,5.322,2.882,7.311,7.532,9.53,13.984l7.179-16.799,15.787-2.335-21.162,65.052c-.275,1.098-1.425,6.015.768,7.681,2.711,2.06,8.765-2.192,10.921-3.706,2.63-1.847,5.314-4.252,12.27-14.045,3.754-5.286,8.134-11.494,13.077-20.503,2.402-4.377,3.044-5.969,3.204-5.9.551.236-6.412,19.253-16.014,35.417-1.062,1.788-2.77,4.574-5.218,7.925-4.205,5.758-7.625,9.531-12.141,13.345-5.191,4.384-11.855,6.336-18.491,4.903-6.576-1.42-6.712-9.434-8.027-13.25-.29-.841-12.789,22.953-33.404,20.151-10.725-1.458-14.433-12.746-15.281-24.166-9.187,13.514-19.017,31.226-35.646,33.318-5.339.672-10.615-1.148-12.139-6.655-1.276-4.612-1.185-10.056.476-14.694l7.314-20.433,8.751-23.961ZM627.058,90.205c4.491-1.739,8.151-5.02,11.07-8.664,9.473-11.829,15.471-25.895,16.162-41.143.239-5.274-.472-10.357-2.861-14.781-1.814-3.36-5.608-4.36-9.097-2.893-4.454,1.874-8.224,5.099-11.218,9.222-10.072,13.872-21.185,41.442-13.44,55.033,1.813,3.182,5.463,4.744,9.384,3.226ZM299.812,81.267c-1.776-3.372-5.92-4.342-9.399-2.716-19.353,9.046-35.277,57.19-21.677,66.788,13.546,9.561,43.786-39.933,31.076-64.072ZM437.871,166.088l8.889-26.313c-9.805,5.604-18.27,11.07-26.041,18.097-4.612,4.17-7.795,9.73-7.5,15.917.166,3.484,2.564,6.954,4.927,7.982,8.503,3.7,16.886-7.28,19.725-15.684Z"/>
+                    <path class="hero-path" pathLength="100" d="M606.845,184.237c0,.95.507,2.804-.096,2.828l-2.929.117-16.646-23.21-.296,19.605c-.011.74,1.315,3.042.6,3.174l-3.181.587c-.718.132-.697-1.913-.697-3.052l.007-26.944c0-.87,2.889-.727,3.456.065l16.367,22.877.057-20.194c.002-.853-.779-3.238-.032-3.235l3.272.013c.746.003.107,2.356.108,3.287l.01,24.081Z"/>
+                    <path class="hero-path" pathLength="100" d="M518.592,173.631l-12.252-.647-.132,10.933c5.776,1.117,11.106.589,16.679-1.947.917,1.053-.198,5.217-1.666,5.224l-19.132.092.008-30.499,17.824-.11c1.923-.012,3.046,3.519,2.075,5.107-5.338-2.186-9.753-2.69-15.69-1.989l.016,10.388,12.072-.721c1.062.103,1.253,3.569.198,4.17Z"/>
+                    <path class="hero-path" pathLength="100" d="M573.635,173.671l-12.452-.651-.126,10.843c5.544,1.201,11.091.712,16.577-1.917,1.194,1.046-.032,5.274-1.718,5.277l-18.989.031-.004-30.456,17.622-.141c2.278-.018,3.447,3.433,2.126,5.143-5.191-2.296-9.828-2.722-15.528-1.954l.032,10.282,11.998-.693c1.129.025,1.312,3.534.461,4.235Z"/>
+                    <path class="hero-path" pathLength="100" d="M658.36,186.124c-4.046,2.857-8.14,1.91-12.366.849-2.608-.655-4.619-2.084-4.873-4.821-.056-.607.176-1.916.325-2.379.671-2.089,6.011,8.188,13.368,4.741,2.046-.958,3.6-2.952,3.575-4.992-.027-2.168-1.595-4.236-3.703-4.915l-7.483-2.41c-3.506-1.129-5.699-4.392-5.659-7.739s2.004-6.608,5.659-7.916c2.694-.964,6-.457,9.061-.071,2.752.346,4.855,1.696,4.705,4.871l-.09,1.911c-.125,2.649-6.13-7.1-12.499-3.849-1.532.782-3.003,2.723-3.129,4.316-.142,1.799,1.532,4.267,3.286,4.84l7.52,2.455c3.065,1,5.529,3.745,5.882,6.329.478,3.503-.607,6.682-3.58,8.781Z"/>
+                    <path class="hero-path" pathLength="100" d="M552.063,157.741l-1.981,4.586-8.669,24.139c-.34.947-3.215.998-4.024.33l-9.707-26.78-1.185-2.398c-.248-.502,1.619-1.189,2.174-1.113l3.097.421c.771.105.002,2.649.314,3.529l7.676,21.643,7.672-21.961c.364-1.041.126-3.393,1.05-3.567,1.077-.203,3.953.315,3.583,1.171Z"/>
+                    <path class="hero-path" pathLength="100" d="M626.598,183.335c.001.914.682,3.812-.14,3.806l-3.598-.031c-.819-.007-.165-2.672-.163-3.494l.06-23.991c-4.064-.379-6.529.505-10.193,2.011-1.049-.864-.099-4.907,1.522-4.907l21.116-.005c1.77,0,2.662,4.029,1.538,4.905-3.651-1.523-6.125-2.329-10.177-2.055l.033,23.762Z"/>
+                </svg>
+            </div>
+            
+            <div class="hero-cta-wrapper">
+                <p class="hero-tagline">Creando recuerdos inolvidables</p>
+                <a href="#nosotros" class="hero-premium-cta" id="hero-cta">Descúbrenos</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- Sobre Nosotros / Historia -->
+    <section class="about-section" id="nosotros">
+        <div class="about-container">
+
+            <!-- Bloque de Texto -->
+            <div class="about-content fade-in-up">
+                <span class="about-subtitle">Nuestra Historia</span>
+                <h2 class="about-title">Producción integral. Eventos inolvidables.</h2>
+                <p class="about-text">
+                    Ubicados en el corazón de <strong>Irún</strong>, en Maryna Events no solo decoramos espacios,
+                    diseñamos experiencias completas. Desde la primera idea hasta el último aplauso, orquestamos cada
+                    detalle de tu celebración con un nivel de exigencia absoluto.
+                </p>
+                <p class="about-text">
+                    Ya sea una boda íntima, una fiesta corporativa o un espectacular paseo en yate, fusionamos alta
+                    decoración, producción técnica de vanguardia y entretenimiento exclusivo para que tú solo tengas que
+                    preocuparte de disfrutar.
+                </p>
+
+                <!-- Tarjetas Interactivas de Estadísticas -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number">+10</span>
+                        <span class="stat-label">Años de Exp.</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">+130</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Personalizado</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloque de Imagen -->
+            <div class="about-image slide-in-right">
+                <img src="imagenes_me/equipo.jpg" alt="El equipo decorando un evento" class="about-photo">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- --- Por qué elegirnos --- -->
+    <section class="features-section" id="ventajas">
+        <div class="features-header fade-in-up">
+            <span class="about-subtitle justify-center">El Método Maryna</span>
+            <h2 class="about-title text-center">Por qué tu evento nos necesita</h2>
+        </div>
+
+        <div class="features-grid">
+            <!-- Feature 1 -->
+            <div class="feature-card fade-in-up delay-1">
+                <div class="feature-icon">💎</div>
+                <h3 class="feature-title">Gestión 360º del Evento</h3>
+                <p class="feature-text">Desde la selección del espacio y el catering hasta los fuegos artificiales.
+                    Unificamos todos los servicios bajo una única dirección técnica y creativa para garantizar un
+                    resultado impecable.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-card fade-in-up delay-2">
+                <div class="feature-icon">🎭</div>
+                <h3 class="feature-title">Producción y Espectáculo</h3>
+                <p class="feature-text">No solo creamos escenarios impactantes, los llenamos de vida. Proveemos equipo
+                    de sonido, pantallas LED, shows en vivo, DJs y maestros de ceremonias de primer nivel.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-card fade-in-up delay-3">
+                <div class="feature-icon">✨</div>
+                <h3 class="feature-title">Exclusividad a Medida</h3>
+                <p class="feature-text">Cada proyecto es único e irrepetible. Diseños florales y decorativos de alta
+                    costura combinados con una coordinación milimétrica del día del evento. Tú solo disfruta de la
+                    fiesta.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Servicios --- -->
+    <section class="services-section" id="servicios">
+        <div class="services-header fade-in-up">
+            <span class="about-subtitle justify-center">Nuestra Especialidad</span>
+            <h2 class="about-title text-center">Diseñamos cada detalle</h2>
+        </div>
+
+        <div class="services-interactive fade-in-up delay-1">
+            <div class="services-tabs">
+                <button class="service-tab active" data-target="panel-1">🎉 Eventos privados</button>
+                <button class="service-tab" data-target="panel-2">🌸 Decoración y ambientación</button>
+                <button class="service-tab" data-target="panel-3">🎧 Producción técnica</button>
+                <button class="service-tab" data-target="panel-4">🎭 Programa de entretenimiento</button>
+                <button class="service-tab" data-target="panel-5">✨ Servicios adicionales</button>
+            </div>
+
+            <div class="services-content">
+                <!-- Panel 1 -->
+                <div class="service-panel active" id="panel-1">
+                    <h3>🎉 Eventos privados</h3>
+                    <ul>
+                        <li>Bodas</li>
+                        <li>Cumpleaños</li>
+                        <li>Aniversarios</li>
+                        <li>Gender reveal (fiesta para revelar el género del bebé)</li>
+                        <li>Baby shower</li>
+                        <li>Fiestas infantiles</li>
+                        <li>Despedida de soltera</li>
+                        <li>VIP picnic</li>
+                        <li>Pedida de mano</li>
+                    </ul>
+                </div>
+
+                <!-- Panel 2 -->
+                <div class="service-panel" id="panel-2">
+                    <h3>🌸 Decoración y ambientación</h3>
+                    <ul>
+                        <li>Photocalls / zonas fotográficas</li>
+                        <li>Composiciones florales</li>
+                        <li>Globos e instalaciones decorativas</li>
+                        <li>Zona de bienvenida (Welcome zone)</li>
+                    </ul>
+                </div>
+
+                <!-- Panel 3 -->
+                <div class="service-panel" id="panel-3">
+                    <h3>🎧 Producción técnica</h3>
+                    <ul>
+                        <li>Sonido e iluminación</li>
+                        <li>Pantallas LED</li>
+                        <li>DJ / equipamiento</li>
+                        <li>Fotografía y vídeo</li>
+                    </ul>
+                </div>
+
+                <!-- Panel 4 -->
+                <div class="service-panel" id="panel-4">
+                    <h3>🎭 Programa de entretenimiento</h3>
+                    <ul>
+                        <li>Maestro de ceremonias / presentador</li>
+                        <li>Artistas</li>
+                        <li>Grupos musicales y de baile</li>
+                        <li>Shows y espectáculos</li>
+                        <li>Animadores</li>
+                    </ul>
+                </div>
+
+                <!-- Panel 5 -->
+                <div class="service-panel" id="panel-5">
+                    <h3>✨ Servicios adicionales</h3>
+                    <ul>
+                        <li>Catering</li>
+                        <li>Show de barman (Barman show)</li>
+                        <li>Diseño gráfico e impresión de invitaciones</li>
+                        <li>Alquiler de mobiliario</li>
+                        <li>Transporte / traslado de invitados</li>
+                        <li>Coordinación del lugar del evento</li>
+                        <li>Búsqueda y selección de espacios para tu celebración / evento</li>
+                        <li>Candy bar / mesa dulce</li>
+                        <li>Paseo en yate</li>
+                        <li>Fuegos artificiales</li>
+                        <li>Talleres / masterclass</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Proyectos Realizados --- -->
+    <section class="projects-section" id="proyectos">
+        <div class="projects-header fade-in-up">
+            <span class="about-subtitle justify-center">Nuestros Trabajos</span>
+            <h2 class="about-title text-center">Inspiración en cada detalle</h2>
+
+            <!-- --- Filtros de la Galería --- -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="bodas">Bodas</button>
+                <button class="filter-btn" data-filter="corporativo">Corporativos</button>
+                <button class="filter-btn" data-filter="ambientacion">Ambientación</button>
+                <button class="filter-btn" data-filter="vip">Eventos VIP</button>
+            </div>
+        </div>
+
+        <!-- --- Mosaico (Masonry Grid) --- -->
+        <div class="masonry-gallery fade-in-up delay-1">
+            <!-- Bodas -->
+            <div class="gallery-item format-tall" data-category="bodas">
+                <img src="imagenes_me/boda1.jpg" alt="Boda de ensueño" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Diseño de Celebración</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="bodas">
+                <img src="imagenes_me/boda2.jpg" alt="Detalles de boda" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Momentos Especiales</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-wide" data-category="bodas">
+                <img src="imagenes_me/boda3.JPG" alt="Decoración nupcial" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Estilo Romántico</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="bodas">
+                <img src="imagenes_me/boda4.JPG" alt="Banquete de boda" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Banquete Elegante</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-tall" data-category="bodas">
+                <img src="imagenes_me/boda5.JPG" alt="Ceremonia nupcial" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Ceremonia Única</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="bodas">
+                <img src="imagenes_me/boda6.JPG" alt="Centro de mesa" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Centros de Mesa</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-wide" data-category="bodas">
+                <img src="imagenes_me/boda7.JPG" alt="Iluminación boda" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Iluminación Mágica</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="bodas">
+                <img src="imagenes_me/boda8.JPG" alt="Mesa nupcial" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Mesa Presidencial</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-tall" data-category="bodas">
+                <img src="imagenes_me/boda9.JPG" alt="Detalles florales boda" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Boda</span>
+                    <h3 class="gallery-title">Arte Floral</h3>
+                </div>
+            </div>
+
+            <!-- Corporativo -->
+            <div class="gallery-item format-wide" data-category="corporativo">
+                <img src="imagenes_me/corporativo1.jpg" alt="Evento corporativo" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Corporativo</span>
+                    <h3 class="gallery-title">Eventos de Empresa</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="corporativo">
+                <img src="imagenes_me/corporativo2.jpg" alt="Montaje corporativo" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Corporativo</span>
+                    <h3 class="gallery-title">Producción Integral</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-tall" data-category="corporativo">
+                <img src="imagenes_me/corporativo3.jpg" alt="Cena de gala" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Corporativo</span>
+                    <h3 class="gallery-title">Cena de Gala</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="corporativo">
+                <img src="imagenes_me/corporativo4.jpg" alt="Decoración corporativa" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Corporativo</span>
+                    <h3 class="gallery-title">Detalles Corporativos</h3>
+                </div>
+            </div>
+
+            <!-- Ambientación -->
+            <div class="gallery-item format-square" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion1.jpg" alt="Sweet Party" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Sweet Party</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-tall" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion2.jpg" alt="Candy Bar" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Diseño de Espacios</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion3.jpg" alt="Photocall Floral" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Corners Temáticos</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-wide" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion4.jpg" alt="Arco Orgánico" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Instalaciones Creativas</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion5.jpg" alt="Decoración festiva" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Eventos a Medida</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-tall" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion6.jpg" alt="Detalles de ambientación" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Estilo y Elegancia</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion7.jpg" alt="Celebración temática" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Magia en Detalles</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-wide" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion8.jpg" alt="Magia en el aire" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Ambientación Festiva</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="ambientacion">
+                <img src="imagenes_me/ambientacion9.jpg" alt="Estilo único" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ambientación</span>
+                    <h3 class="gallery-title">Creaciones Únicas</h3>
+                </div>
+            </div>
+
+            <!-- VIP -->
+            <div class="gallery-item format-tall" data-category="vip">
+                <img src="imagenes_me/vip1.jpg" alt="Experiencia VIP" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">VIP</span>
+                    <h3 class="gallery-title">Exclusividad</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-wide" data-category="vip">
+                <img src="imagenes_me/vip2.jpg" alt="Lujo y confort" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">VIP</span>
+                    <h3 class="gallery-title">Atención Premium</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="vip">
+                <img src="imagenes_me/vip3.jpg" alt="Coctelería premium" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">VIP</span>
+                    <h3 class="gallery-title">Servicio Selecto</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-tall" data-category="vip">
+                <img src="imagenes_me/vip4.jpg" alt="Ambiente selecto" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">VIP</span>
+                    <h3 class="gallery-title">Ambientes Únicos</h3>
+                </div>
+            </div>
+            <div class="gallery-item format-square" data-category="vip">
+                <img src="imagenes_me/vip5.jpg" alt="Música y estilo" class="gallery-img">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">VIP</span>
+                    <h3 class="gallery-title">Música y Estilo</h3>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- --- Experiencia del Equipo (Línea de Vida/Interactivo) --- -->
+    <section class="experience-section" id="experiencia">
+        <div class="experience-header fade-in-up">
+            <span class="about-subtitle justify-center">Más de 10 años creando magia</span>
+            <h2 class="about-title text-center">La mente detrás de la obra</h2>
+        </div>
+
+        <div class="timeline-container fade-in-up delay-1">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Especialistas en Diseño Estructural</h3>
+                    <p class="timeline-text">Años de experiencia nos han enseñado que la estética debe ir acompañada de
+                        una arquitectura sólida. Construimos photocalls de gran formato, estructuras metálicas y arcos
+                        orgánicos que soportan cualquier condición escénica o climática.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Logística Milimétrica</h3>
+                    <p class="timeline-text">Con más de 130 proyectos superados, nuestro equipo de montaje domina los
+                        tiempos. Llegamos, instalamos sin interrumpir a otros proveedores, y desmontamos en tiempo
+                        récord al finalizar tu celebración.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Innovación en Iluminación y Neón</h3>
+                    <p class="timeline-text">No solo colocamos flores; integramos tecnología. Desde neones corporativos
+                        y rótulos personalizados hasta la sincronización de pantallas LED y cañones de luz para
+                        acompañar nuestros diseños.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3 class="timeline-title">Atención VIP Ininterrumpida</h3>
+                    <p class="timeline-text">Tu tranquilidad es parte de nuestra experiencia. Asignamos un Project
+                        Manager exclusivo a cada evento que te mantendrá al tanto en cada fase del diseño, la producción
+                        y el día exacto del montaje.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Sección de Contacto Directo (WhatsApp) --- -->
+    <section class="cta-section" id="contacto-final">
+        <div class="cta-container fade-in-up">
+            <h2 class="cta-title">¿Listo para hacer historia?</h2>
+            <p class="cta-text">Cuéntanos sobre tu próximo evento y nuestro equipo de producción diseñará una propuesta
+                a medida que superará todas tus expectativas. Habla directamente con nosotros.</p>
+
+            <!-- Botones Interactivos -->
+            <div class="contact-buttons-wrapper">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/34622583985?text=Hola,%20me%20gustaría%20información%20sobre%20la%20decoración%20para%20un%20evento."
+                    target="_blank" rel="noopener noreferrer" class="whatsapp-btn-interactive">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.96 0C5.372 0 0.02 5.344 0.02 11.928c0 2.108.55 4.155 1.595 5.964L0 23.992l6.23-1.633c1.748.96 3.733 1.468 5.728 1.468H11.96c6.586 0 11.938-5.344 11.938-11.928C23.898 5.312 18.546 0 11.96 0zm0 21.848h-.006c-1.787 0-3.542-.48-5.076-1.39l-.364-.216-3.774.99.1-3.684-.236-.376A9.914 9.914 0 011.996 11.93c0-5.494 4.475-9.96 9.968-9.96 5.492 0 9.966 4.47 9.966 9.964 0 5.492-4.474 9.914-9.97 9.914zM17.43 14.39c-.3-.15-1.774-.875-2.048-.975-.275-.1-.475-.15-.675.15-.2.3-.775.975-.95 1.175-.175.2-.35.225-.65.075-.3-.15-1.265-.466-2.408-1.488-.888-.795-1.488-1.776-1.663-2.076-.175-.3-.02-.463.132-.613.136-.135.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.24-.588-.485-.506-.675-.516-.18-.01-.38-.01-.58-.01s-.525.075-.8.375c-.275.3-1.05 1.025-1.05 2.5s1.075 2.875 1.225 3.075c.15.2 2.095 3.2 5.075 4.488.71.306 1.264.488 1.696.625.713.227 1.36.195 1.874.118.577-.085 1.775-.725 2.025-1.425.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z" />
+                    </svg>
+                    <span class="wa-text">WhatsApp</span>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://instagram.com/marynaa_events" target="_blank" rel="noopener noreferrer"
+                    class="instagram-btn-interactive">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg>
+                    <span class="wa-text">Instagram</span>
+                </a>
+            </div>
+
+            <p class="wa-subtext">Contacta con nosotros por mensaje directo o WhatsApp</p>
+        </div>
+    </section>
+
+    <!-- --- Footer / Pie de Página --- -->
+    <footer class="main-footer">
+        <div class="footer-container">
+
+            <!-- Columna 1: Marca -->
+            <div class="footer-brand fade-in-up">
+                <img src="LOGOMARYNAEVENTS1.svg" alt="Maryna Events Logo" class="footer-logo">
+                <p class="footer-desc">Producción integral y diseño de eventos exclusivos. Arte efímero que dura para
+                    siempre.</p>
+            </div>
+
+            <!-- Columna 2: Enlaces Rápidos -->
+            <div class="footer-links fade-in-up delay-1">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#ventajas">El Método Maryna</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#experiencia">Nuestro Equipo</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Contacto -->
+            <div class="footer-contact fade-in-up delay-2">
+                <h4>Contacto</h4>
+                <ul class="contact-list">
+                    <li><span class="icon">📍</span> Irún, Gipuzkoa (Desplazamientos consultar)</li>
+                    <li><span class="icon">✉️</span> <a
+                            href="mailto:marynaevents@gmail.com">marynaevents@gmail.com</a></li>
+                    <li><span class="icon">📞</span> <a href="tel:+34622583985">+34 622 583 985</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Barra Inferior Legal -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Maryna Events. Todos los derechos reservados. <span class="agency-credit">Diseño web por <a
+                        href="https://yaroglobalagency.com" target="_blank" rel="noopener noreferrer"
+                        class="agency-link"><strong>YARO Global Agency LLC</strong></a></span></p>
+            <div class="footer-socials">
+                <a href="https://instagram.com/marynaa_events" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg>
+                </a>
+
+                <a href="https://wa.me/34622583985?text=Hola,%20me%20gustaría%20información%20sobre%20la%20decoración%20para%20un%20evento."
+                    target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.96 0C5.372 0 0.02 5.344 0.02 11.928c0 2.108.55 4.155 1.595 5.964L0 23.992l6.23-1.633c1.748.96 3.733 1.468 5.728 1.468H11.96c6.586 0 11.938-5.344 11.938-11.928C23.898 5.312 18.546 0 11.96 0zm0 21.848h-.006c-1.787 0-3.542-.48-5.076-1.39l-.364-.216-3.774.99.1-3.684-.236-.376A9.914 9.914 0 011.996 11.93c0-5.494 4.475-9.96 9.968-9.96 5.492 0 9.966 4.47 9.966 9.964 0 5.492-4.474 9.914-9.97 9.914zM17.43 14.39c-.3-.15-1.774-.875-2.048-.975-.275-.1-.475-.15-.675.15-.2.3-.775.975-.95 1.175-.175.2-.35.225-.65.075-.3-.15-1.265-.466-2.408-1.488-.888-.795-1.488-1.776-1.663-2.076-.175-.3-.02-.463.132-.613.136-.135.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.24-.588-.485-.506-.675-.516-.18-.01-.38-.01-.58-.01s-.525.075-.8.375c-.275.3-1.05 1.025-1.05 2.5s1.075 2.875 1.225 3.075c.15.2 2.095 3.2 5.075 4.488.71.306 1.264.488 1.696.625.713.227 1.36.195 1.874.118.577-.085 1.775-.725 2.025-1.425.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- --- Lightbox Modal (Oculto por defecto) --- -->
+    <div class="lightbox-modal" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">&times;</button>
+        <div class="lightbox-content">
+            <img src="" alt="Ampliada" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
